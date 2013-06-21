@@ -1,1 +1,51 @@
-body { }p { }td { }a:link { }a:visited { }a:hover { }a:active { }.title.class { color: #670e7b; font-size: 14pt; font-family: 'Oxygen','Open Sans','Helvetica Neue', Arial, SunSans-Regular, sans-serif; font-weight: bold; font-style: normal; line-height: 16pt; }.important.class { color: #630d6e; font-family: 'Oxygen','Open Sans','Helvetica Neue', Arial, SunSans-Regular, sans-serif; font-weight: bold; font-style: normal; }#home-heading {	font-family:'Oxygen','Open Sans',"Helvetica Neue", 'Helvetica Neue', Arial, sans-serif;	font-weight:normal;}#normal-text {	font-family:'Oxygen','Open Sans',"Helvetica Neue", 'Helvetica Neue', Arial, sans-serif;}#email-link {	color:black;	text-decoration:none;}#email-link:hover {	text-decoration:underline;}#nav-bottom {	padding-left:3px;	padding-right:3px;	text-decoration:none;}#nav-bottom:hover {	text-decoration:underline;}#black {	color:black;}#pic-col {	width:50px;	text-align:center;}#general-link {	text-decoration:none;	color:#630d6e;}#general-link:hover {	text-decoration:underline;}
+body { }
+p { }
+td { }
+a:link { }
+a:visited { }
+a:hover { }
+a:active { }
+.title.class { color: #670e7b; font-size: 14pt; font-family: 'Oxygen','Open Sans','Helvetica Neue', Arial, SunSans-Regular, sans-serif; font-weight: bold; font-style: normal; line-height: 16pt; }
+.important.class { color: #630d6e; font-family: 'Oxygen','Open Sans','Helvetica Neue', Arial, SunSans-Regular, sans-serif; font-weight: bold; font-style: normal; }
+.mobile-show {
+    display: none;   
+}
+.mobile-hide {
+    display: block;
+}
+#home-heading {
+	font-family:'Oxygen','Open Sans',"Helvetica Neue", 'Helvetica Neue', Arial, sans-serif;
+	font-weight:normal;
+}
+#normal-text {
+	font-family:'Oxygen','Open Sans',"Helvetica Neue", 'Helvetica Neue', Arial, sans-serif;
+}
+#email-link {
+	color:black;
+	text-decoration:none;
+}
+#email-link:hover {
+	text-decoration:underline;
+}
+#nav-bottom {
+	padding-left:3px;
+	padding-right:3px;
+	text-decoration:none;
+}
+#nav-bottom:hover {
+	text-decoration:underline;
+}
+#black {
+	color:black;
+}
+#pic-col {
+	width:50px;
+	text-align:center;
+}
+#general-link {
+	text-decoration:none;
+	color:#630d6e;
+}
+#general-link:hover {
+	text-decoration:underline;
+}

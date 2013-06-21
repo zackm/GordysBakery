@@ -1,6 +1,35 @@
+html {
+    font-family: 'Oxygen','Open Sans','Helvetica Neue',Arial, SunSans-Regular, sans-serif;
+}
+/* Colors:
+ * Dark Yellow:
+ * Red:
+ * Purple: 
+ * Beige: 
+ */
 .mobile-hide {
     display:none;
 }
 .mobile-show {
     display:block;
+}
+
+.home-logo {
+    text-align: center;
+    background-color: #d12229;
+}
+.nav div {
+    display: inline-block;
+    width: 45%;
+    padding: 5px;
+    margin: 8px 0px 0px 0px;
+    text-align: center;
+    background-color: #8b3782;
+    color: #3b0233;
+}
+.nav div:active {
+    box-shadow: inset 0px 0px 8px 5px #CA50BE;
+}
+.info-wrapper {
+    text-align: center;
 }
