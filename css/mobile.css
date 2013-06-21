@@ -14,6 +14,16 @@ html {
     display:block;
 }
 
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.clear {
+    float: clear;   
+}
+
 .home-logo {
     text-align: center;
     width: 100%;
@@ -33,13 +43,13 @@ html {
     cursor: pointer;
 }
 .nav a:active {
-    box-shadow: inset 0px 0px 8px 5px #CA50BE;
+    box-shadow: inset 0px 0px 8px 5px #E95CDD;
 }
 .nav a {
     display: inline-block;
     width: 40%;
     padding: 15px;
-    margin: 8px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     text-align: center;
     background-color: #8b3782;
     color: #3b0233;
@@ -54,5 +64,26 @@ html {
 .mobile-content {
     background-color: #e4b694;
     width: 100%;
-    margin: 85px 0px 0px 0px;
+    margin: 90px 0px 0px 0px;
+    padding: 7px;
+}
+.headline {
+    width: 36%;
+    float: left;
+}
+.plonk {
+    width: 60%;
+}
+.info tr {
+    width: 100%;
+}
+.info tr td:first-child {
+    text-align: center;
+    width: 20%;
+}
+
+.footer {
+    text-align: center;
+    color: #8A6720;
+    font-size: 90%;
 }
