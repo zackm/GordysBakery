@@ -16,20 +16,42 @@ html {
 
 .home-logo {
     text-align: center;
-    background-color: #d12229;
+    width: 100%;
+    background-image: linear-gradient(180deg, #d12229, #9C191C);
+    padding: 7px 0px 7px 0px;
+    background-color: #d12229; /* fallback color if gradients are not supported */
+}
+.home-logo img {
+    width: 40%;
+}
+.nav a {
+    color: #3b0233;
+    text-decoration: none;
+}
+.nav a:hover {
+
 }
 .nav div {
     display: inline-block;
-    width: 45%;
+    width: 46%;
     padding: 5px;
     margin: 8px 0px 0px 0px;
     text-align: center;
     background-color: #8b3782;
     color: #3b0233;
+    font-weight: bold;
+}
+.nav div:nth-child(even) {
+    float: right;
+}
+.nav div:nth-child(odd) {
+    float: left;
 }
 .nav div:active {
     box-shadow: inset 0px 0px 8px 5px #CA50BE;
 }
 .info-wrapper {
     text-align: center;
+    width: 100%;
+    margin: 45px 0px 0px 0px;
 }
