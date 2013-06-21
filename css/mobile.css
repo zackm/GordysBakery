@@ -29,29 +29,30 @@ html {
     text-decoration: none;
 }
 .nav a:hover {
-
+    box-shadow: inset 0px 0px 8px 5px #AE45A5;
+    cursor: pointer;
 }
-.nav div {
+.nav a:active {
+    box-shadow: inset 0px 0px 8px 5px #CA50BE;
+}
+.nav a {
     display: inline-block;
-    width: 46%;
-    padding: 5px;
+    width: 40%;
+    padding: 15px;
     margin: 8px 0px 0px 0px;
     text-align: center;
     background-color: #8b3782;
     color: #3b0233;
     font-weight: bold;
 }
-.nav div:nth-child(even) {
+.nav a:nth-child(even) {
     float: right;
 }
-.nav div:nth-child(odd) {
+.nav a:nth-child(odd) {
     float: left;
 }
-.nav div:active {
-    box-shadow: inset 0px 0px 8px 5px #CA50BE;
-}
-.info-wrapper {
-    text-align: center;
+.mobile-content {
+    background-color: #e4b694;
     width: 100%;
-    margin: 45px 0px 0px 0px;
+    margin: 85px 0px 0px 0px;
 }
