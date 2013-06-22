@@ -30,9 +30,9 @@ html {
     text-align: center;
     width: 100%;
     background-color: #d12229;
-    background-image: linear-gradient(180deg, #d12229, #9C191C);
-    background-image: -moz-linear-gradient(180deg, #d12229, #9C191C);
-    background-image: -webkit-linear-gradient(180deg, #d12229, #9C191C);
+    background-image: linear-gradient(top, #d12229, #9C191C);
+    background-image: -moz-linear-gradient(top, #d12229, #9C191C);
+    background-image: -webkit-linear-gradient(top, #d12229, #9C191C);
     padding: 7px 0px 7px 0px;
     background-color: #d12229; /* fallback color if gradients are not supported */
     border-radius: 2px;
