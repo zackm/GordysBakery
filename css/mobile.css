@@ -33,6 +33,7 @@ html {
     padding: 7px 0px 7px 0px;
     background-color: #d12229; /* fallback color if gradients are not supported */
     border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.296875) 0px 1px 4px 0px;
 }
 .home-logo img {
     width: 40%;
@@ -70,6 +71,8 @@ html {
 }
 
 /* Page Content */
+
+/* Home Page */
 .mobile-content {
     background-color: #e4b694;
     width: 100%;
@@ -77,12 +80,14 @@ html {
     padding: 7px;
 }
 .headline {
-    width: 36%;
+    width: 40%;
     float: left;
-    font-size: 1.3em;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px 0px 0px 10px;
 }
 .plonk {
-    width: 50%;
+    width: 200px;
 }
 table.info {
     margin-right: auto;
