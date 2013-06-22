@@ -46,7 +46,7 @@ html {
     cursor: pointer;
 }
 .nav a:active {
-    box-shadow: inset 0px 0px 8px 5px #E95CDD;
+    box-shadow: inset 0 0 8px 3px black;
 }
 .nav a {
     display: inline-block;
@@ -82,7 +82,7 @@ html {
     font-size: 1.3em;
 }
 .plonk {
-    width: 60%;
+    width: 50%;
 }
 table.info {
     margin-right: auto;
