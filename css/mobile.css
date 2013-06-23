@@ -82,6 +82,7 @@ html {
     background-color: #e4b694;
     width: 100%;
     margin: 95px 0px 0px 0px;
+    border-radius: 2px;
     padding: 7px;
 }
 .headline {
@@ -119,6 +120,15 @@ table.info {
     text-decoration: none;
     font-size: 1.3em;
 }
+.social-icons {
+    font-size: 1.5em;
+    text-align: center;
+}
+.social-icons i {
+    padding: 0px 5px 0px 5px;   
+    text-decoration: none;
+}
+
 /* Footer */
 .footer {
     text-align: center;
