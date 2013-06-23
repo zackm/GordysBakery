@@ -81,7 +81,7 @@ html {
 .mobile-content {
     background-color: #e4b694;
     width: 100%;
-    margin: 90px 0px 0px 0px;
+    margin: 95px 0px 0px 0px;
     padding: 7px;
 }
 .headline {
@@ -91,8 +91,13 @@ html {
     font-size: 1.2em;
     padding: 5px 0px 0px 5px;
 }
+.mini-logo {
+    padding: 3px 0px 3px 0px;
+    width: 20px;
+    height: 20px;
+}
 .plonk {
-    width: 200px;
+    width: 180px;
 }
 table.info {
     margin-right: auto;
