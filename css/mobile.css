@@ -101,7 +101,7 @@ html {
     height: 20px;
 }
 .plonk {
-    width: 180px;
+    width: 170px;
 }
 table.info {
     margin-right: auto;
@@ -151,6 +151,7 @@ table.info {
 /* Menu */
 .menu img {
     width: 85%;
+    border-radius: 2px;
 }
 .menu span {
     width: 50%;
