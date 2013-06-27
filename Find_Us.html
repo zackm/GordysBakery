@@ -336,6 +336,15 @@ function preloadImages() {
                 <small>Site by <a href="http://zackmayeda.com">Zack Mayeda</a></small>
             </div>
         </span>
+        
+        <!-- Mobile Address Bar Hiding -->
+        <script type="text/javascript">
+            if (screen.width <= 400) {
+                window.addEventListener('load', function(e) {
+                    setTimeout(function() { window.scrollTo(0, 1); }, 1);
+                }, false);
+            }
+        </script>
 	</body>
 
 </html>
