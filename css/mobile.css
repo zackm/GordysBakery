@@ -101,7 +101,7 @@ html {
     height: 20px;
 }
 .plonk {
-    width: 170px;
+    width: 160px;
 }
 table.info {
     margin-right: auto;
@@ -130,6 +130,16 @@ table.info {
 .social-icons i {
     padding: 0px 5px 0px 5px;   
     text-decoration: none;
+}
+.yelp {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    
+    
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-image: url(../Images/Index/PNG/yelp.png);   
 }
 
 /* Footer */
