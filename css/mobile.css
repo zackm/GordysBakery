@@ -156,9 +156,10 @@ table.info {
 .menu img {
     width: 85%;
     border-radius: 2px;
+    margin-top: 5px;
 }
 .menu span {
-    width: 50%;
+    width: 48%;
     margin-bottom: 5px;
 }
 .menu span:nth-child(odd) {
@@ -170,4 +171,16 @@ table.info {
 }
 img.lunch-lady {
    width:100%; 
+}
+.menu-group {
+    padding: 7px;
+    border-radius: 2px;
+    margin-top: 4px;
+    width: 42% !important;
+}
+.menu span.menu-group:nth-child(odd) {
+    border-left: 4px solid #8b3782;
+}
+.menu span.menu-group:nth-child(even) {
+    border-right: 4px solid #8b3782;
 }
