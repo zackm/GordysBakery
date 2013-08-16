@@ -6,10 +6,12 @@
 	 the site, please email me at z@zackmayeda.com -->
 	<head>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 		<title>Gordy's Bakery and Coffeehouse | Home</title>
 		<link href="favicon.ico" rel="shortcut icon" csoptsettings="AQAAABh42mNgYND4uXXDpMzk/BwGBgaO/0AApG0AbKoJAA==" livesrc="favicon.psd" />
-		<link rel="stylesheet" href="css/basic.css" type='text/css'/>
+		<link rel="stylesheet" media="only screen and (min-width: 401px)" href="css/basic.css" type='text/css'/>
 		<link rel="stylesheet" href="css/font-awesome.min.css" type='text/css'/>
+        <link rel="stylesheet" media="handheld, only screen and (max-width: 400px), (max-height: 400px)" href="css/mobile.css" type="text/css" />
 		<style type="text/css" media="screen"><!--
 .important.class { color: #670e7b; font-family: 'Oxygen','Open Sans','Helvetica Neue',Arial, SunSans-Regular, sans-serif; font-weight: bold; font-style: normal; }
 .padbcont_C88B3383 {width:100%;}
@@ -55,7 +57,7 @@ function preloadImages() {
 	</head>
 
 	<body onload="preloadImages();" bgcolor="#e5ab34" link="#8a6720" vlink="#8f0c8a" alink="#b23232">
-		
+		<span class="mobile-hide">
 		<script>
 		// Include JS SDK
 		  window.fbAsyncInit = function() {
@@ -275,6 +277,109 @@ function preloadImages() {
 		</table>
 		
 		<p></p>
+        </span>
+        
+        <!-- Start of Mobile Content -->
+        <span class="mobile-show">
+            <a href="index.html">
+                <div class="home-logo">
+                    <img src="Images/Index/PNG/transparent_logo.png" />
+                </div>
+            </a>
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="Menu.html">Menu</a>
+                <a href="Find_Us.html">Find Us</a>
+                <a href="About.html">About</a>
+            </div>
+            
+            <br />
+            <br />
+            
+            <div class="mobile-content">
+                <span class="headline">
+                    Gordy's Bakery and Coffeehouse
+                    <img src="Images/Index/PNG/g-circle-small.png" class="mini-logo" />
+                    <br />
+                    <small>One location worldwide.</small>
+                </span>
+                <span class="right"><img class="plonk" src="Images/Index/PNG/plonk.png" /></span>
+                
+                <div class="clear"></div>
+                
+                <br />
+                <br />
+                
+                <table class="info">
+                    <tr>
+                        <td>
+                            <a href="http://maps.google.com/maps?q=Gordy's+Bakery+and+Coffeehouse,+Encinitas+Boulevard,+Encinitas,+CA&hl=en&sll=33.046906,-117.283657&sspn=0.011403,0.022724&oq=gordys&t=h&hq=Gordy's+Bakery+and+Coffeehouse,&hnear=Encinit
+as+Blvd,+Encinitas,+California+92024&z=15">
+                                <i class='icon-map-marker'></i>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://maps.google.com/maps?q=Gordy's+Bakery+and+Coffeehouse,+Encinitas+Boulevard,+Encinitas,+CA&hl=en&sll=33.046906,-117.283657&sspn=0.011403,0.022724&oq=gordys&t=h&hq=Gordy's+Bakery+and+Coffeehouse,&hnear=Encinitas+Blvd,+Encinitas,+California+92024&z=15">441 Encinitas Blvd<br />
+                    Encinitas, CA 92024
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="tel:+17607534982"><i class='icon-phone'></i></a></td>
+                        <td colspan="2">
+                            <a href="tel:+17607534982">760.753.4982</a>
+                        </td>
+                    </tr>
+                    <tr style=''>
+                        <td ><a href="mailto:gordy@gordysbakery.com"><i class='icon-envelope-alt'></i></a></td>
+                        <td>
+                            <a href="mailto:gordy@gordysbakery.com">gordy@gordysbakery.com</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i class='icon-time'></i> </td>
+                        <td>Hours:</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Mon - Fri: 6 am - 5 pm</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Sat: 6 am - 4 pm</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Sun: 7 am - 1 pm</td>
+                    </tr>
+                </table>
+                
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/pages/Gordys-Bakery/135079049859133"><i class="icon-facebook-sign"></i></a>
+                    <a href="http://foursquare.com/venue/6109347"><i class="icon-foursquare"></i></a>
+                    <a href="http://www.yelp.com/biz/gordys-bakery-encinitas" class="yelp"></a>
+                </div>
+                
+            </div>
+            
+            <br />
+            <div class="footer">
+                © Content Copyright 2013.<br />
+                Gordy's Bakery and Coffeehouse<br />
+                All rights reserved.<br />
+                <br />
+                <small>Site by <a href="http://zackmayeda.com">Zack Mayeda</a></small>
+            </div>
+        </span>
+        
+        <!-- Mobile Address Bar Hiding -->
+        <script type="text/javascript">
+            if (screen.width <= 400) {
+                window.addEventListener('load', function(e) {
+                    setTimeout(function() { window.scrollTo(0, 1); }, 1);
+                }, false);
+            }
+        </script>
 	</body>
 	
 </html>
